@@ -3,6 +3,11 @@ html, body {
 	line-height: 1.5;
 	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
 }
+
+.clear {
+	clear: both;
+}
+
 #wrap {
 	background-color: rgb(46, 52, 54);
 	color: rgb(12, 12, 12);
@@ -19,13 +24,28 @@ html, body {
 
 #logo {
 	background-color: rgb(32, 74, 135);
-	background-image: url(MIPSlogo.jpg);
-	background-position: right center;
 	display: block;
 	padding: 3em 3em 0 3em ;
  	-webkit-border-radius: .3em;
  	-moz-border-radius: .3em;
 	border-radius: .3em;
+}
+
+#logo img {
+	height: 250px;
+	display: block;
+}
+
+#logo span {
+	font-size: 3em;
+	line-height: 1;
+	padding: 0.5em 1em;
+	text-align: right;
+	position: absolute;
+	right: 6%;
+	bottom: 0;
+	color: #fff;
+	text-shadow: 2px 2px 2px rgb(46, 52, 54);
 }
 
 #menu {
@@ -53,16 +73,17 @@ html, body {
 	font-size: 9pt;
 	line-height: 3;
 	padding: 0 1em;
-	color: rgb(238, 238, 238);
-	color: rgba(238, 238, 238, 0.86);
-	}
+	color: rgb(238, 238, 236);
+	color: rgba(238, 238, 236, 0.86);
+	text-shadow: 1px 1px 2px rgb(46, 52, 54);
+}
 
 #menu a:hover {
-	color: rgba(238, 238, 238, 1);
-	}
+	color: rgba(238, 238, 236, 1);
+}
 
 #footer, #main_content {
-	background-color: rgb(238, 238, 238);
+	background-color: rgb(238, 238, 236);
 }
 
 #main_content {
@@ -84,7 +105,7 @@ html, body {
 	font-size: 2em;
 	padding: 0 1em;
 	line-height: 3;
-	text-shadow: hsl(0, 0%, 58%) 1px 1px 3px;
+	text-shadow: 1px 1px 2px rgb(46, 52, 54);
 }
 
 #news h3,
@@ -105,4 +126,4 @@ html, body {
 	background-color: rgb(211, 215, 207);
 	border-top: 1px solid rgb(186, 189, 182);
 	text-align: right;
-	}
+}
