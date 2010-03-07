@@ -1,97 +1,105 @@
 html, body {
 	font-size: 11pt;
 	line-height: 1.5;
-	font-family: sans-serif;
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
 }
 #wrap {
-	background-color: #000;
-	color: #000;
+	background-color: rgb(46, 52, 54);
+	color: rgb(12, 12, 12);
 }
- 
-#top , #main_content, #footer, #pasek {
-	padding: 0 11.4em;
+
+#top , #main_content, #footer {
+	padding: 0 6%;
 }
- 
+
 #top {
 	position: relative;
+	top: 3em;
 }
- 
+
 #logo {
-	background-image: url("MIPSlogo.jpg");
-	padding-bottom: 20em;
-	width: 100%;
+	background-color: rgb(32, 74, 135);
+	background-image: url(MIPSlogo.jpg);
+	background-position: right center;
 	display: block;
-	
+	padding: 3em 3em 0 3em ;
+ 	-webkit-border-radius: .3em;
+ 	-moz-border-radius: .3em;
+	border-radius: .3em;
 }
 
-#pasek{
-		background-color: #000;
-		padding: 0.1em;
-		}
-#lewa_menu {
-	background-image: url("pasek.jpg");
-	background-repeat: repeat-x;
-	padding: 1em 0;
-}
- 
-#prawa_menu {
-		background-image: url("pasek.jpg");
-	background-repeat: repeat-x;
-	
+#menu {
 	position: absolute;
-	right: 25em;
-	top: 20.1em;
-	text-align: right;
-	background-color: #111;
+	font-weight: bold;
+	right: 6%;
+	top: 0;
+	padding-left: 2em;
+	background-color: rgba(46, 52, 54, 0.66);
+	-webkit-border-bottom-left-radius: 3em;
+	-moz-border-radius-bottomleft: 3em;
+	border-bottom-left-radius: 3em;
+	-webkit-border-top-right-radius: .3em;
+	-moz-border-radius-topright: .3em;
+	border-top-right-radius: .3em;
 }
- 
-#prawa_menu li {
 
+#menu li {
 	display: inline-block;
-	float: left;
-	border-width: 0 0px 0px 0px;
-	border-style: solid;
-	
 }
- 
-#prawa_menu a:link, #prawa_menu a:visited {
+
+#menu a {
 	text-decoration: none;
 	display: block;
-	width: 95px;
-	text-align: center;
-	padding: 0px 0;
-	font-weight: bold;
-	color: #def;
-	font-size: 12px;
-	
-}
- 
-#prawa_menu a:hover {
-	
-	color: #fff;
-	
-	border-bottom: 1px solid orange;
-
-}
-
-
-#users {
-	background-color: orange;
-	float: left;
-	width: 30%;
-	overflow: hidden;
+	font-size: 9pt;
+	line-height: 3;
+	padding: 0 1em;
+	color: rgb(238, 238, 238);
+	color: rgba(238, 238, 238, 0.86);
 	}
-	
-	
-#news {
-	background-color: #111;
-	color: white;
-	float: left;
-	width:70%;
-	overflow: hidden;
+
+#menu a:hover {
+	color: rgba(238, 238, 238, 1);
 	}
- 
- #footer {
-	padding-bottom: 25em;
-	clear: both;
+
+#footer, #main_content {
+	background-color: rgb(238, 238, 238);
 }
+
+#main_content {
+	padding-top: 3em;
+}
+
+#news,
+#latest_news {
+	width: 50%;
+	float: left;
+}
+
+#news h2,
+#latest_news h2 {
+	font-family: serif;
+	font-size: 2em;
+	padding: 0 1em;
+	line-height: 3;
+	text-shadow: hsl(0, 0%, 58%) 1px 1px 3px;
+}
+
+#news h3,
+#latest_news h3 {
+	font-size: 1.5em;
+	padding: 0 1.5em 1em;
+	line-height: 1;
+}
+
+#news p,
+#latest_news p,
+#footer p {
+	padding: 0 2em 1em;
+}
+
+#footer {
+	padding: 1em 6%;
+	background-color: rgb(211, 215, 207);
+	border-top: 1px solid rgb(186, 189, 182);
+	text-align: right;
+	}
