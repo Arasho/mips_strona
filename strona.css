@@ -66,6 +66,9 @@ html, body {
 }
 
 #main_content {
+	background-image: url(grad1.png);
+	background-position: center top;
+	background-repeat: repeat-x;
 	padding-top: 3em;
 }
 
