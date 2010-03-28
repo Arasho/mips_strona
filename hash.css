@@ -39,15 +39,22 @@ html, body {
 }
 
 #logo span {
-	font-size: 3em;
+	font-size: 6em;
 	line-height: 1;
-	padding: 0.5em 1em;
+	padding: 0 .33em;
 	text-align: right;
 	position: absolute;
 	right: 6%;
-	bottom: 0;
+	bottom: .66em;
 	color: #fff;
 	text-shadow: 2px 2px 2px rgb(46, 52, 54);
+}
+
+#logo span + span {
+	font-size: 2em;
+	line-height: 3;
+	padding: 0 1em;
+	bottom: 0;
 }
 
 #menu {
@@ -101,8 +108,7 @@ html, body {
 	float: left;
 }
 
-#news h2,
-#projects h2 {
+#content h2 {
 	font-family: serif;
 	font-size: 2em;
 	padding: 0 1em;
@@ -110,15 +116,13 @@ html, body {
 	text-shadow: 1px 1px 2px rgb(46, 52, 54);
 }
 
-#news h3,
-#projects h3 {
+#content h3 {
 	font-size: 1.5em;
 	padding: 0 1.5em 1em;
 	line-height: 1;
 }
 
-#news p,
-#projects p,
+#content p,
 #footer p {
 	padding: 0 2em 1em;
 }
