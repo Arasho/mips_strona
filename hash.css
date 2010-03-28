@@ -26,7 +26,10 @@ html, body {
 
 #logo {
 	background-color: rgb(32, 74, 135);
+	background-image: url(CPU_close_up_1690.jpg);
+	background-position: center 75%;
 	display: block;
+	text-decoration: none;
 	padding: 3em 3em 0 3em ;
 	-webkit-border-radius: .3em;
 	-moz-border-radius: .3em;
