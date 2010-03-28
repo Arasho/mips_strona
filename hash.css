@@ -1,0 +1,131 @@
+@import url("reset.css");
+
+html, body {
+	font-size: 11pt;
+	line-height: 1.5;
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+}
+
+.clear {
+	clear: both;
+}
+
+#mips {
+	background-color: rgb(46, 52, 54);
+	color: rgb(12, 12, 12);
+}
+
+#header , #content, #footer {
+	padding: 0 6%;
+}
+
+#header {
+	position: relative;
+	top: 3em;
+}
+
+#logo {
+	background-color: rgb(32, 74, 135);
+	display: block;
+	padding: 3em 3em 0 3em ;
+	-webkit-border-radius: .3em;
+	-moz-border-radius: .3em;
+	border-radius: .3em;
+}
+
+#logo img {
+	height: 250px;
+	display: block;
+}
+
+#logo span {
+	font-size: 3em;
+	line-height: 1;
+	padding: 0.5em 1em;
+	text-align: right;
+	position: absolute;
+	right: 6%;
+	bottom: 0;
+	color: #fff;
+	text-shadow: 2px 2px 2px rgb(46, 52, 54);
+}
+
+#menu {
+	position: absolute;
+	font-weight: bold;
+	right: 6%;
+	top: 0;
+	padding-left: 2em;
+	background-color: rgba(46, 52, 54, 0.66);
+	-webkit-border-bottom-left-radius: 3em;
+	-moz-border-radius-bottomleft: 3em;
+	border-bottom-left-radius: 3em;
+	-webkit-border-top-right-radius: .3em;
+	-moz-border-radius-topright: .3em;
+	border-top-right-radius: .3em;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu a {
+	text-decoration: none;
+	display: block;
+	font-size: 9pt;
+	line-height: 3;
+	padding: 0 1em;
+	color: rgb(238, 238, 236);
+	color: rgba(238, 238, 236, 0.86);
+	text-shadow: 1px 1px 2px rgb(46, 52, 54);
+}
+
+#menu a:hover {
+	color: rgba(238, 238, 236, 1);
+}
+
+#footer, #content {
+	background-color: rgb(238, 238, 236);
+}
+
+#content {
+	background-image: url(grad1.png);
+	background-position: center top;
+	background-repeat: repeat-x;
+	padding-top: 3em;
+}
+
+#news,
+#projects {
+	width: 50%;
+	float: left;
+}
+
+#news h2,
+#projects h2 {
+	font-family: serif;
+	font-size: 2em;
+	padding: 0 1em;
+	line-height: 3;
+	text-shadow: 1px 1px 2px rgb(46, 52, 54);
+}
+
+#news h3,
+#projects h3 {
+	font-size: 1.5em;
+	padding: 0 1.5em 1em;
+	line-height: 1;
+}
+
+#news p,
+#projects p,
+#footer p {
+	padding: 0 2em 1em;
+}
+
+#footer {
+	padding: 1em 6%;
+	background-color: rgb(211, 215, 207);
+	border-top: 1px solid rgb(186, 189, 182);
+	text-align: right;
+}
