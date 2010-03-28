@@ -8,16 +8,16 @@ html, body {
 	clear: both;
 }
 
-#wrap {
+#mips {
 	background-color: rgb(46, 52, 54);
 	color: rgb(12, 12, 12);
 }
 
-#top , #main_content, #footer {
+#header , #content, #footer {
 	padding: 0 6%;
 }
 
-#top {
+#header {
 	position: relative;
 	top: 3em;
 }
@@ -26,8 +26,8 @@ html, body {
 	background-color: rgb(32, 74, 135);
 	display: block;
 	padding: 3em 3em 0 3em ;
- 	-webkit-border-radius: .3em;
- 	-moz-border-radius: .3em;
+	-webkit-border-radius: .3em;
+	-moz-border-radius: .3em;
 	border-radius: .3em;
 }
 
@@ -82,11 +82,11 @@ html, body {
 	color: rgba(238, 238, 236, 1);
 }
 
-#footer, #main_content {
+#footer, #content {
 	background-color: rgb(238, 238, 236);
 }
 
-#main_content {
+#content {
 	background-image: url(grad1.png);
 	background-position: center top;
 	background-repeat: repeat-x;
@@ -94,13 +94,13 @@ html, body {
 }
 
 #news,
-#latest_news {
+#projects {
 	width: 50%;
 	float: left;
 }
 
 #news h2,
-#latest_news h2 {
+#projects h2 {
 	font-family: serif;
 	font-size: 2em;
 	padding: 0 1em;
@@ -109,14 +109,14 @@ html, body {
 }
 
 #news h3,
-#latest_news h3 {
+#projects h3 {
 	font-size: 1.5em;
 	padding: 0 1.5em 1em;
 	line-height: 1;
 }
 
 #news p,
-#latest_news p,
+#projects p,
 #footer p {
 	padding: 0 2em 1em;
 }
