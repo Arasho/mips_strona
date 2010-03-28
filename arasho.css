@@ -1,0 +1,84 @@
+@import url("reset.css");
+
+html, body {
+	font-size: 11pt;
+	line-height: 1.5;
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+	background-color: #000;
+	color: #fff;
+}
+
+.clear {
+	clear: both;
+}
+
+#header , #content, #footer{
+	width: 928px;
+	margin: 0 auto;
+}
+
+#logo {
+	background-image: url("gora.jpg");
+	background-repeat: no-repeat;
+	height: 286px;
+	display: block;
+}
+
+#logo img,
+#logo span {
+	display: none;
+}
+
+#menu {
+	background-image: url("MIPS_chang_03.gif");
+	background-repeat: repeat-x;
+	text-align: right;
+	line-height: 30px;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu a:link, #menu a:visited {
+	text-decoration: none;
+	font-size: 12px;
+	display: block;
+	padding: 0 1em;
+	font-weight: bold;
+	color: #abc;
+}
+
+#menu a:hover {
+	color: #fff;
+}
+
+#projects, #news {
+	float: left;
+	overflow: hidden;
+}
+
+#projects {
+	width: 38%;
+}
+
+#news {
+	width: 61%;
+}
+
+#projects h2, #news h2 {
+	font-size: 1.5em;
+	line-height: 1;
+	margin-bottom: 1em;
+	padding: 1em 1.33em 0;
+}
+
+#content .item {
+	padding: 0 2em;
+	margin-bottom: 1.5em;
+}
+
+#footer p {
+	font-size: .8em;
+	padding: 0 2.5em 1.25em;
+}
